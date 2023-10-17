@@ -1,15 +1,33 @@
 body {
+    box-sizing: border-box;
     padding: 3rem 0;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: antiquewhite;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100vw;
+    background-color: rgb(62, 31, 0);
 }
 
 div {
-    padding: 1rem 0;
+    padding: 2.5rem 0;
+    width: 70vw;
+    margin: 0 auto;
+    background-color: white;
     h2 {
         color: rgb(44, 18, 0);
+        margin: 0 0 1rem 0;
     }
+    p {
+        margin: 0;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        span {
+            font-style: italic;
+            color: rgb(112, 30, 0);
+        }
+    }
+}
+
+.beige-bg {
+    background-color: antiquewhite;
 }
 
 #photos {
@@ -17,5 +35,8 @@ div {
         width: 300px;
         height: 300px;
         object-fit: cover;
+        padding: .5rem;
+        background-color: rgba(255, 166, 0, 0.5);
+        
     }
 }
